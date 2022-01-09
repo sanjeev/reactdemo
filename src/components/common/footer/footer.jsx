@@ -14,8 +14,8 @@ export default class Footer extends Component {
                                     <p style={{ color:'#fff',lineHeight: 2.3}}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. </p>
                                 </div>
                                 <div className="col-lg-6">
-                                    <form action method="post">
-                                        <input type="email" name="email" /><input type="submit" value="Sign up" defaultValue="Subscribe" />
+                                    <form  method="post">
+                                        <input type="email" name="email" /><input type="submit"  value="Sign up" />
                                     </form>
                                 </div>
                             </div>
@@ -32,18 +32,18 @@ export default class Footer extends Component {
                                 <div className="col-lg-3 col-md-6 footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><i className="bx bx-chevron-right" /> <a href="#">Home</a></li>
-                                        <li><i className="bx bx-chevron-right" /> <a href="#">About us</a></li>
-                                        <li><i className="bx bx-chevron-right" /> <a href="#">Services</a></li>
+                                        <li><i className="bx bx-chevron-right" /> <a href="/#" onClick={(e) => e.preventDefault()}>Home</a></li>
+                                        <li><i className="bx bx-chevron-right" /> <a href="/#" onClick={(e) => e.preventDefault()}>About us</a></li>
+                                        <li><i className="bx bx-chevron-right" /> <a href="/#" onClick={(e) => e.preventDefault()}>Services</a></li>
                                         
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-md-6 footer-links">
                                     <h4>Our Services</h4>
                                     <ul>
-                                        <li><i className="bx bx-chevron-right" /> <a href="#">Web Design</a></li>
-                                        <li><i className="bx bx-chevron-right" /> <a href="#">Web Development</a></li>
-                                        <li><i className="bx bx-chevron-right" /> <a href="#">Product Management</a></li>
+                                        <li><i className="bx bx-chevron-right" /> <a href="/#" onClick={(e) => e.preventDefault()}>Web Design</a></li>
+                                        <li><i className="bx bx-chevron-right" /> <a href="/#" onClick={(e) => e.preventDefault()}>Web Development</a></li>
+                                        <li><i className="bx bx-chevron-right" /> <a href="/#" onClick={(e) => e.preventDefault()}>Product Management</a></li>
                                        
                                     </ul>
                                 </div>

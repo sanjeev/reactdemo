@@ -35,11 +35,11 @@ export default class Products extends Component {
                     <h1>Products</h1>
                 </div>
                 <Slider {...settings} className='slider'>
-                    <img src={logo} width={330} height={413} />
-                    <img src={logo} width={330} height={413} />
-                    <img src={logo} width={330} height={413} />
-                    <img src={logo} width={330} height={413} />
-                    <img src={logo} width={330} height={413} />
+                    <img src={logo} width={330} height={413} alt='' />
+                    <img src={logo} width={330} height={413} alt='' />
+                    <img src={logo} width={330} height={413} alt='' />
+                    <img src={logo} width={330} height={413} alt='' />
+                    <img src={logo} width={330} height={413} alt='' />
                 </Slider>
             </>
         )

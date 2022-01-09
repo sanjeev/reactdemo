@@ -11,13 +11,13 @@ export default class Portfolio extends Component {
                 <div className="container">
                     <div className='row'>
                         <div className='col-md-4 text-center' >
-                            <img src={logo} className='case' width={330} height={413} />
+                            <img src={logo} className='case' width={330} height={413} alt='' />
                         </div>
                         <div className='col-md-4 text-center'>
-                            <img src={logo} className='case' width={330} height={413} />
+                            <img src={logo} className='case' width={330} height={413} alt='' />
                         </div>
                         <div className='col-md-4 text-center'>
-                            <img src={logo} className='case' width={330} height={413} />
+                            <img src={logo} className='case' width={330} height={413} alt='' />
                         </div>
                     </div>
                 </div>

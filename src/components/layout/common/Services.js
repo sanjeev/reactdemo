@@ -44,57 +44,57 @@ export default class Services extends Component {
 
 
                             <div>
-                                <img className="slick-slide-image" src={logo} />
+                                <img className="slick-slide-image" src={logo}  alt=''/>
                                 <div className='text-center mt-2'>
                                     <h5>What is Lorem Ipsum</h5>
                                     <p>It is a long established fact that a reader will be distracted by</p>
                                     <hr />
-                                    <a href='#'>Read More</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()}>Read More</a>
                                 </div>
                             </div>
                             <div>
-                                <img className="slick-slide-image" src={logo} />
+                                <img className="slick-slide-image" src={logo} alt=''/>
                                 <div className='text-center mt-2'>
                                     <h5>What is Lorem Ipsum</h5>
                                     <p>It is a long established fact that a reader will be distracted by</p>
                                     <hr />
-                                    <a href='#'>Read More</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()}>Read More</a>
                                 </div>
                             </div>
                             <div>
-                                <img className="slick-slide-image" src={logo} />
+                                <img className="slick-slide-image" src={logo} alt=''/>
                                 <div className='text-center mt-2'>
                                     <h5>What is Lorem Ipsum</h5>
                                     <p>It is a long established fact that a reader will be distracted by</p>
                                     <hr />
-                                    <a href='#'>Read More</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()}>Read More</a>
                                 </div>
                             </div>
                             <div>
-                                <img className="slick-slide-image" src={logo} />
+                                <img className="slick-slide-image" src={logo} alt=''/>
                                 <div className='text-center mt-2'>
                                     <h5>What is Lorem Ipsum</h5>
                                     <p>It is a long established fact that a reader will be distracted by</p>
                                     <hr />
-                                    <a href='#'>Read More</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()}>Read More</a>
                                 </div>
                             </div>
                             <div>
-                                <img className="slick-slide-image" src={logo} />
+                                <img className="slick-slide-image" src={logo} alt=''/>
                                 <div className='text-center mt-2'>
                                     <h5>What is Lorem Ipsum</h5>
                                     <p>It is a long established fact that a reader will be distracted by</p>
                                     <hr />
-                                    <a href='#'>Read More</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()}>Read More</a>
                                 </div>
                             </div>
                             <div>
-                                <img className="slick-slide-image" src={logo} />
+                                <img className="slick-slide-image" src={logo} alt=''/>
                                 <div className='text-center mt-2'>
                                     <h5>What is Lorem Ipsum</h5>
                                     <p>It is a long established fact that a reader will be distracted by</p>
                                     <hr />
-                                    <a href='#'>Read More</a>
+                                    <a href="/#" onClick={(e) => e.preventDefault()}>Read More</a>
                                 </div>
                             </div>
 
